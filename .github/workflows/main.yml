@@ -15,6 +15,7 @@ on:
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
+    timeout-minutes: 60
     strategy:
       matrix:
         operating-system: [ 'ubuntu-latest' ]
@@ -38,6 +39,7 @@ jobs:
       - name: Install dependecies
         run: pipenv --python 3.13 && pipenv install --deploy
       - name: Update
+        timeout-minutes: 45
         run: pipenv run dev
       - name: Commit and push if changed
         run: |
