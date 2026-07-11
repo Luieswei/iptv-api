@@ -12,6 +12,10 @@ name: 'Update schedule'
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '30 21 * * *'   # 缅甸时间 04:00
+    - cron: '30 9 * * *'    # 缅甸时间 16:00
+
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
