@@ -47,7 +47,10 @@ default_ipv6_result = {
 min_measure_time = 1.0
 stability_window = 4
 stability_threshold = 0.12
-segment_sample_limit = 2
+# ===== MOE Optimize Begin =====
+# 原版为2，容易误判，改为6个TS分段进行测速
+segment_sample_limit = 6
+# ===== MOE Optimize End =====
 playlist_max_bytes = 2 * 1024 * 1024
 
 ad_filter_keywords = [
@@ -323,9 +326,12 @@ async def get_result(url: str, headers: dict = None, resolution: str = None,
                     )
                     info.update({'speed': res_info['speed'], 'delay': res_info['delay']})
                 if segment_urls:
-                    sampled_segment_urls = segment_urls[-(segment_sample_limit + 1):-1]
-                    if not sampled_segment_urls:
-                        sampled_segment_urls = segment_urls[-segment_sample_limit:]
+                    # ===== MOE Optimize Begin =====
+                    sampled_segment_urls = sample_segment_urls(
+                        segment_urls,
+                        segment_sample_limit,
+                    )
+                    # ===== MOE Optimize End =====
                     tasks = [
                         get_speed_with_download(
                             ts_url,
