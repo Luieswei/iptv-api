@@ -1,16 +1,14 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/mytv-android/myMIGU/refs/heads/main/epg.xml.gz" catchup="append" catchup-source="&playbackbegin=${(b)YMMddHHmmss}&playbackend=${(e)YMMddHHmmss}"
+#EXTINF:-1 tvg-id="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV1综合
+javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CCTV1综合
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV2财经
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CCTV2财经
-#EXTINF:-1 tvg-id="CCTV3综艺" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/864/202204010055_1626679244629_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV3综艺
-javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CCTV3综艺
 #EXTINF:-1 tvg-id="CCTV4中文国际" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/947/202204010054_1626679413842_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV4中文国际
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CCTV4中文国际
 #EXTINF:-1 tvg-id="CCTV5体育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/171/202204010048_1626679603804_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV5体育
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CCTV5体育
 #EXTINF:-1 tvg-id="CCTV5+体育赛事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/288/202204010048_1626679712843_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV5+体育赛事
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CCTV5+体育赛事
-#EXTINF:-1 tvg-id="CCTV6电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/872/202204010054_1626679914432_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV6电影
-javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CCTV6电影
 #EXTINF:-1 tvg-id="CCTV7国防军事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/622/202204010054_1626680119210_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV7国防军事
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CCTV7国防军事
 #EXTINF:-1 tvg-id="CCTV8电视剧" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/868/202204010049_1626677150014_H32_1080.webp" group-title="央视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CCTV8电视剧
@@ -75,6 +73,8 @@ javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/ma
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=广东卫视
 #EXTINF:-1 tvg-id="北京卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/306/202512091630_1765269008692_H32_1080.webp" group-title="卫视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",北京卫视
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=北京卫视
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/198/202509221600_5101043014_H32_1080.webp" group-title="卫视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",辽宁卫视
+javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=辽宁卫视
 #EXTINF:-1 tvg-id="河北卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/316/202512310003_1766556161260_H32_1080.webp" group-title="卫视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",河北卫视
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=河北卫视
 #EXTINF:-1 tvg-id="江西卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/492/202303201551_1658134104486_H32_1080.webp" group-title="卫视" http-user-agent="MGPlayer4Android/v9.49.0.3.28",江西卫视
@@ -151,6 +151,8 @@ javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/ma
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=宜兴新闻综合
 #EXTINF:-1 tvg-id="溧水新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/349/202506201638_1750408486645_H32_1080.webp" group-title="地方" http-user-agent="MGPlayer4Android/v9.49.0.3.28",溧水新闻综合
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=溧水新闻综合
+#EXTINF:-1 tvg-id="陕西银龄频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/191/202508051746_1754371397446_H32_1080.webp" group-title="地方" http-user-agent="MGPlayer4Android/v9.49.0.3.28",陕西银龄频道
+javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=陕西银龄频道
 #EXTINF:-1 tvg-id="陕西都市青春频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/190/202508051746_1754371284700_H32_1080.webp" group-title="地方" http-user-agent="MGPlayer4Android/v9.49.0.3.28",陕西都市青春频道
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=陕西都市青春频道
 #EXTINF:-1 tvg-id="陕西秦腔频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/188/202508051741_1754370560985_H32_1080.webp" group-title="地方" http-user-agent="MGPlayer4Android/v9.49.0.3.28",陕西秦腔频道
@@ -191,6 +193,8 @@ javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/ma
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CETV1
 #EXTINF:-1 tvg-id="CETV2" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/152/202407181432_1721283782530_H32_1080.webp" group-title="教育" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CETV2
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CETV2
+#EXTINF:-1 tvg-id="CETV4" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/154/202407181433_1721283870297_H32_1080.webp" group-title="教育" http-user-agent="MGPlayer4Android/v9.49.0.3.28",CETV4
+javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=CETV4
 #EXTINF:-1 tvg-id="山东教育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/199/202509241938_1758698577926_H32_1080.webp" group-title="教育" http-user-agent="MGPlayer4Android/v9.49.0.3.28",山东教育
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=山东教育
 #EXTINF:-1 tvg-id="熊猫频道01高清" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/634/723/202206081044_2202634723_H32_1080.webp" group-title="熊猫" http-user-agent="MGPlayer4Android/v9.49.0.3.28",熊猫频道01高清
@@ -201,8 +205,6 @@ javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/ma
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=熊猫频道2
 #EXTINF:-1 tvg-id="熊猫频道3" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/738/202209211759_2200200738_H32_1080.webp" group-title="熊猫" http-user-agent="MGPlayer4Android/v9.49.0.3.28",熊猫频道3
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=熊猫频道3
-#EXTINF:-1 tvg-id="熊猫频道4" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/771/202209211800_2200200771_H32_1080.webp" group-title="熊猫" http-user-agent="MGPlayer4Android/v9.49.0.3.28",熊猫频道4
-javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=熊猫频道4
 #EXTINF:-1 tvg-id="熊猫频道5" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/791/202209211800_2200200791_H32_1080.webp" group-title="熊猫" http-user-agent="MGPlayer4Android/v9.49.0.3.28",熊猫频道5
 javascript://https://raw.githubusercontent.com/mytv-android/mytvJS/refs/heads/main/js/mgd_github.js?channel=熊猫频道5
 #EXTINF:-1 tvg-id="熊猫频道6" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/817/202209211800_2200200817_H32_1080.webp" group-title="熊猫" http-user-agent="MGPlayer4Android/v9.49.0.3.28",熊猫频道6
